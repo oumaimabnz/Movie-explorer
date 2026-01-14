@@ -1,16 +1,141 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a **React-based web application** that allows users to **discover, search, and explore movies** using real-time data from **The Movie Database (TMDB) API**.  
+The project focuses on clean UI, API integration, and responsive frontend design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://movie-explorer-ten-lime.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React
+- Vite
+- React Router
+- Axios
+- Tailwind CSS
+
+### API
+- The Movie Database (TMDB)
+
+---
+
+## ✨ Features
+
+- 🎥 Browse popular movies
+- 🔍 Search movies by title
+- 📄 View detailed movie information
+- 🖼️ Movie cards with posters and ratings
+- 📱 Responsive design (mobile & desktop)
+- ⚡ Fast performance with Vite
+
+---
+
+## 📁 Project Structure
+
+````
+Movie-explorer/
+├── public/
+│ └── favicon.ico
+├── src/
+│ ├── assets/ # Images and static files
+│ ├── components/ # Reusable components (MovieCard, Navbar, etc.)
+│ ├── pages/ # Pages (Home, MovieDetails, Search)
+│ ├── services/ # TMDB API configuration & requests
+│ ├── App.jsx # App routes
+│ └── main.jsx # Application entry point
+├── .env
+├── index.html
+├── package.json
+└── README.md
+````
+
+---
+
+## 🎯 Project Goals
+
+- Practice modern **React development**
+- Work with **external REST APIs**
+- Build a **responsive and user-friendly UI**
+- Improve frontend project structure
+- Create a strong **portfolio project**
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/oumaimabnz/Movie-explorer.git
+cd Movie-explorer
+````
+2️⃣ Install dependencies
+
+```bash
+npm install 
+````
+3️⃣ Environment Variables
+
+Create a .env file in the root directory:
+```bash
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE=your_appwrite_database_id
+VITE_APPWRITE_TABLE_ID=your_appwrite_table_id
+````
+You can obtain an API key from:
+
+https://www.themoviedb.org/
+
+4️⃣ Run the project
+
+````bash
+npm run dev
+````
+Open your browser at:
+
+http://localhost:5173
+
+---
+
+## 🚢 Deployment
+
+This project can be deployed using:
+- Vercel
+- Netlify
+
+Remember to configure environment variables in the deployment platform.
+
+---
+
+## 🧠 What This Project Demonstrates
+
+- React component-based architecture
+- API integration using Axios
+- Client-side routing with React Router
+- Responsive UI with Tailwind CSS
+- Clean and scalable frontend structure
+
+---
+
+## 📬 Contact
+
+Oumaima Benaziza
+
+LinkedIn: https://www.linkedin.com/in/oumaima-benaziza
+
+Email: oumaimabenaziza21@gmail.com
+
+---
+
+⭐ Support
+
+If you like this project, feel free to star ⭐ the repository.
+Suggestions and feedback are always welcome!
+
