@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { useDebounce, useRendersCount } from 'react-use';
-import './App.css'
 import Search from './components/Search'
 import Spinner from './components/Spinner';
 import MovieCard from './components/MovieCard';
