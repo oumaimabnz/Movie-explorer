@@ -62,8 +62,6 @@ Movie-explorer/
 - Practice modern **React development**
 - Work with **external REST APIs**
 - Build a **responsive and user-friendly UI**
-- Improve frontend project structure
-- Create a strong **portfolio project**
 
 ---
 
